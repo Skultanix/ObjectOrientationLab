@@ -148,7 +148,14 @@ function totalPopulation(obj) {
 
 //Code Here
 
-
+function ingredients (obj) {
+  let {carb, fat, protein} = obj
+  let ingrArray = []
+  ingrArray.push(obj[`carb`])
+  ingrArray.push(obj[`fat`])
+  ingrArray.push(obj[`protein`])
+  return ingrArray
+}
 
 //////////////////////////// PROBLEM 10 ////////////////////////////
 // Do not edit the code below.
