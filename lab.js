@@ -258,6 +258,23 @@ gandalf.castSpell()
 
 //Code Here
 
+class Phone {
+  constructor(brand, model, storage, color, price, soldProperties) {
+    this.brand = brand;
+    this.model = model;
+    this.storage = storage;
+    this.color = color;
+    this.price = price;
+    this.soldProperty = false;
+  } 
+  sell() {
+    this.soldProperty = true
+    console.log(`${this.brand} ${this.model} has been sold.`)
+  }
+  changePrice(newPrice) {
+    this.price = newPrice;
+  }
+}
   
 /*
     Next make three new phone instances using your class.
@@ -271,6 +288,11 @@ gandalf.castSpell()
 
 //Code Here
 
+let iPhone12 = new Phone('Apple','iPhone 12', 256, 'Rose Gold', 1200)
+let zFold3 = new Phone('Samsung', 'Galaxy Z Fold 3', 128, 'Black', 1000)
+let razr = new Phone('Motorola', 'Razr', 256, 'White', 1000)
+
+
 /* 
   Call the changePrice function on one of your phones, 
   don't forget to pass in a new price 
@@ -280,6 +302,8 @@ gandalf.castSpell()
 
 //Code Here 
 
+razr.changePrice(750)
+console.log(razr)
 
 /*
   Now call the sell method on one of your other phone objects
@@ -289,6 +313,8 @@ gandalf.castSpell()
 
 //Code Here 
 
+zFold3.sell()
+console.log(zFold3)
 
 //////////////////////////// PROBLEM 15 ////////////////////////////
 
