@@ -49,6 +49,14 @@ console.log(dog['color'])
 
 //Code here
 
+const favoriteThings = {
+  band: `Linkin Park`,
+  food: `Beef brisket`,
+  person: `TBD`,
+  book: `12 Rules for Life`,
+  movie: `Lord of the Rings: The Two Towers`,
+  holiday: `New Years Eve`,
+}
 
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car and then another key named 'show' with the value being your favorite show.
@@ -56,6 +64,7 @@ console.log(dog['color'])
 
 //Code here
 
+favoriteThings.car = 'Toyota Corolla'
 
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
@@ -64,6 +73,10 @@ console.log(dog['color'])
 
 //Code here
 
+//This is heresy.
+favoriteThings.food = "Chicken Nuggets"
+
+favoriteThings.book = `Harry Potter`
 
 //////////////////////////// PROBLEM 6 ////////////////////////////
 
