@@ -200,7 +200,15 @@ console.log(user)
 
 //Code here
 
-
+class Cat {
+  constructor(name, age, color) {
+    this.name = name;
+    this.age = age;
+    this.color = color;
+  }
+}
+let garfield = new Cat(`Garfield`, 43, `Orange`)
+console.log(garfield.name)
 
 //////////////////////////// PROBLEM 13 ////////////////////////////
 /*
