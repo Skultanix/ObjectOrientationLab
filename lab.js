@@ -321,7 +321,8 @@ console.log(zFold3)
 /*
   Use the spread operator to create a copy of the colors object below.
   Store the copy in a variable called colorsCopy.
-  Note: We did not cover the spread operator in class. We do not expect you to know how to use it. Challenge yourself by going online and researching what the spread operator is and how to use it.
+  Note: We did not cover the spread operator in class. We do not expect you to know how to use it. 
+  Challenge yourself by going online and researching what the spread operator is and how to use it.
 */
 
 //do not edit this object
@@ -334,6 +335,7 @@ const colors = {
 
 //Code Here 
 
+let colorsCopy = {...colors}
 
 
 /*
@@ -362,7 +364,8 @@ const shippingInfo = {
 
 //Code Here
 
-
+let helensInfo = {...contactInfo, ...shippingInfo}
+console.log(helensInfo)
 //Print helensInfo to see what it looks like, there should be no repeating properties.
 
 
