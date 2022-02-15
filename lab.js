@@ -95,7 +95,10 @@ var carDetails = {
 
 //Code Here
 
-
+let carColor = carDetails.color
+let carMake = carDetails.make
+let carModel = carDetails.color
+let carYear = carDetails.year
 
 //////////////////////////// PROBLEM 7 ////////////////////////////
 
