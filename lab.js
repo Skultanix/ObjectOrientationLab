@@ -21,7 +21,11 @@ const me = {
 
 //Code here
 
-
+const dog = {
+  name: `Shadow`,
+  color: `black`,
+  goodBoy: true,
+}
 
 //////////////////////////// PROBLEM 3 ////////////////////////////
 /* Print out the name of the dog you created in problem 2 using dot-notation. */
