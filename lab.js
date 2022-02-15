@@ -129,7 +129,11 @@ function greeting( obj ) {
 
 //Code Here
 
-
+function totalPopulation(obj) {
+  const {utah, california, texas, arizona} = obj
+  let totalNumber = utah + california + texas + arizona
+  return totalNumber
+}
 
 //////////////////////////// PROBLEM 9 ////////////////////////////
 
