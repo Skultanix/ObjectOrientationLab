@@ -24,6 +24,7 @@ const me = {
 const dog = {
   name: `Shadow`,
   color: `black`,
+  age: 14,
   goodBoy: true,
 }
 
