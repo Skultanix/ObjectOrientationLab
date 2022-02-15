@@ -178,7 +178,7 @@ var user = {
 //Code Here
 
 user.name = `Bryan G. Smith`
-user.email = 'bryan.smith@devmounta.in
+user.email = 'bryan.smith@devmounta.in'
 
 //////////////////////////// PROBLEM 11 ////////////////////////////
 /*
@@ -187,6 +187,9 @@ user.email = 'bryan.smith@devmounta.in
 
 //Code Here
 
+//#selfconsciousmuch?
+delete user.age
+console.log(user)
 
 //////////////////////////// PROBLEM 12 ////////////////////////////
 /*
