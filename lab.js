@@ -110,20 +110,11 @@ let carYear = carDetails.year
 
 function greeting( obj ) {
   //Code Here
-  let thisGuy = {
-    title: `Jarl`,
-    firstName: `Balgruuf`,
-    lastName: `The Greater`
-  }
-  let title = thisGuy.title
-  let firstName = thisGuy.firstName
-  let lastName = thisGuy.lastName
-  
+  const {title, firstName, lastName} = obj
   // Do not edit the code below.
   return 'Hello, ' + title + ' ' + firstName + ' ' + lastName + '!';
   // Do not edit the code above.
 }
-
 
 
 //////////////////////////// PROBLEM 8 ////////////////////////////
